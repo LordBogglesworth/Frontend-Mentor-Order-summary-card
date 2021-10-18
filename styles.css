@@ -1,0 +1,144 @@
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100%;
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+p {
+  font-size: 16px;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+.main_container {
+  width: 450px;
+  margin-top: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.0.15);
+}
+
+.hero_image {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.order_summary {
+  margin: 40px 50px 15px;
+}
+
+.order_summary p {
+  color: #757B8C;
+}
+
+.annual_plan {
+  display: flex;
+  background-color: #f5f7ff;
+  padding: 10px;
+  margin: auto 40px;
+  border-radius: 20px;
+}
+
+.image_pricing {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.image_pricing_icon {
+  margin: 20px;
+}
+
+.image_pricing_text {
+  text-align: justify;
+  line-height: 1.75;
+  margin-top: 15px;
+}
+
+.annual_plan_text {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.price {
+  color: #6D7794;
+}
+
+.change {
+  flex-grow: 1;
+  margin: auto 0 auto 25%;
+}
+
+.change a {
+  color: #382AE1;
+  font-weight: 700;
+}
+
+.change a:hover {
+  color: #766CF1;
+  text-decoration: none;
+}
+
+.payment {
+  padding: 25px;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #382AE1;
+  padding: 10px 100px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+  background-color: #766CF1;
+}
+
+.cancel_order {
+  margin: 25px 20px 20px 20px;
+}
+
+.cancel_order a {
+  text-decoration: none;
+  font-weight: 900;
+  color: #6D7794;
+}
+
+.cancel_order a:hover {
+  color: #333333;
+}
+
+@media (max-width:500px) {
+  .main_container {
+    width: 375px;
+  }
+
+  .hero_image {
+    width: 375px;
+  }
+
+  .btn {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
